@@ -12,7 +12,6 @@ before_install:
 
 script: 
   - docker run dgheart/docker-react npm run test -- --coverage
-<<<<<<< HEAD
 
 deploy: 
   - provider: elasticbeanstalk
@@ -26,5 +25,3 @@ deploy:
   access_key_id: "$AWS_ACCESS_KEY"
   secret_access_key:
     secure: "$AWS_SECRET_KEY"
-=======
->>>>>>> e0ae0466bc67d05e777d6a78ab7445651727731a
