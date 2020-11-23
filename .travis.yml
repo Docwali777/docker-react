@@ -8,8 +8,8 @@ services:
 before_install: 
   - docker build -t dgheart/docker-react .
 
-script: 
-  - docker run -e CI=true dgheart/docker-react npm test -- --coverage
+# script: 
+#   - docker run -e CI=true dgheart/docker-react npm test -- --coverage
 
 deploy: 
   provider: elasticbeanstalk
