@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install: 
-  - docker build -t dgheart/docker-react .
+  - docker build -t dgheart/docker-react -f .
 
 script: 
   - docker run -e CI=true dgheart/docker-react npm run test -- --coverage
