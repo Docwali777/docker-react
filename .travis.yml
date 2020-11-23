@@ -24,4 +24,4 @@ deploy:
     secure: "$AWS_SECRET_KEY"
   on:
     branch: master
-  skip_cleanup: true
+ 
