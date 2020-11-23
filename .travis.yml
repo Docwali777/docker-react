@@ -12,7 +12,6 @@ script:
   - docker run -e CI=true dgheart/docker-react npm test -- --coverage
 
 deploy: 
-  skip_cleanup: true
   provider: elasticbeanstalk
   region: "us-east-2"
   app: "docker-react"
