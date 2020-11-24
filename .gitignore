@@ -3,6 +3,7 @@
 #docker
 docker-compose.yaml
 docker-compose.yml
+dev-docker-compose.yml
 
 # dependencies
 /node_modules
