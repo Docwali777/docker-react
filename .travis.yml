@@ -11,6 +11,7 @@ before_install:
 
 script: 
   - docker run -e CI=true dgheart/docker-react npm test
+  ##removed coverage
 
 deploy: 
   provider: elasticbeanstalk
